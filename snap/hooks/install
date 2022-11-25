@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+
+#this script runs once at the installation. place your code below
+echo "You are installing the app"
+mkdir $SNAP_COMMON/REDIS
+cp -a $SNAP/bin/REDIS/*  $SNAP_COMMON/REDIS/
+
+
+

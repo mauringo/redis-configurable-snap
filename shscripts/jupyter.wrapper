@@ -1,0 +1,5 @@
+#!/bin/sh
+
+export GIT_EXEC_PATH=$SNAP/usr/lib/git-core/
+cd 
+jupyter-lab --allow-root --no-browser --ip='0.0.0.0' --port='9876' --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.base_url='jupyter' --notebook-dir=$SNAP_COMMON
