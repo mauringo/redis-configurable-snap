@@ -25,7 +25,7 @@ Building:
 
         snapcraft --use-lxd
 
-## Building - local
+## Building - remote (code will be public)
 
 Follow these steps:
 
@@ -35,5 +35,5 @@ Dependencies:
 
 Building:    
         
-        snapcraft --reote-build
+        snapcraft --remote-build
 
